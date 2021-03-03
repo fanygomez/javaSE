@@ -188,18 +188,18 @@ public class Test {
         System.out.println(" ");
         System.out.println("#48");
         String[][] arry = { { "A", "B", "C" }, { "D", "E"} };
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                System.out.print(arry[i][j] + " before if");
-                System.out.println("");
-                if (arry[i][j].equals("B")) {
-                    System.out.println("");
-                    System.out.println("break"+arry[i][j]);
-                    break;
-                }
-            }
-            continue;
-        }
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr.length; j++) {
+//                System.out.print(arry[i][j] + " before if");
+//                System.out.println("");
+//                if (arry[i][j].equals("B")) {
+//                    System.out.println("");
+//                    System.out.println("break"+arry[i][j]);
+//                    break;
+//                }
+//            }
+//            continue;
+//        }
         System.out.println("");
         System.out.println("#49");
         String str = " ";
